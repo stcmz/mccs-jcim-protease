@@ -1,0 +1,28 @@
+Chain ID,Residue name,Residue sequence,Conf 1(Input)
+A,SER,1,-0.0148
+A,PHE,3,-0.0036
+A,ALA,206,-0.0035
+A,TYR,209,-0.0452
+A,ALA,210,-0.0350
+A,ILE,213,0.1686
+A,ASN,214,-0.0077
+A,GLY,251,-0.0172
+A,PRO,252,-0.2327
+A,LEU,253,-0.3004
+A,SER,254,-0.0170
+A,ALA,255,-0.0518
+A,GLN,256,-0.9063
+A,THR,257,-0.0721
+A,PRO,293,-0.0201
+A,VAL,296,-0.1726
+A,VAL,297,-0.7346
+A,ARG,298,-0.1191
+A,GLN,299,-0.0671
+A,CYS,300,-0.4922
+A,SER,301,-0.4018
+A,GLY,302,-0.0362
+
+Intra-Ligand Free,,,-0.4042
+Inter-Ligand Free,,,-3.5824
+Total Free Energy,,,-3.9866
+Normalized Total Free Energy,,,-2.9035

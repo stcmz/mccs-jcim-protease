@@ -1,0 +1,23 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_6  and  N3_9
+ROOT
+HETATM    1  N1  NTG A 404       9.978   1.480  21.333  1.00  0.00    -0.189 NA
+HETATM    2  C1  NTG A 404       9.837   0.515  21.943  1.00  0.00     0.119 C
+HETATM    3  C2  NTG A 404       9.667  -0.635  22.734  1.00  0.00     0.140 A
+HETATM    4  C3  NTG A 404       8.963  -0.532  23.922  1.00  0.00     0.040 A
+HETATM    5  C4  NTG A 404       8.890  -1.641  24.759  1.00  0.00     0.024 A
+HETATM    6  C5  NTG A 404       9.527  -2.848  24.404  1.00  0.00     0.037 A
+HETATM    7  C6  NTG A 404      10.199  -2.839  23.136  1.00  0.00     0.132 A
+HETATM    8  N2  NTG A 404      10.280  -1.780  22.312  1.00  0.00    -0.243 NA
+ENDROOT
+BRANCH   6   9
+HETATM    9  N3  NTG A 404       9.605  -4.030  25.232  1.00  0.00    -0.271 NA
+HETATM   10  C7  NTG A 404       9.964  -5.350  24.643  1.00  0.00     0.092 C
+HETATM   11  C8  NTG A 404       8.975  -5.856  23.587  1.00  0.00     0.044 C
+HETATM   12  C9  NTG A 404       7.510  -5.637  24.007  1.00  0.00     0.161 C
+HETATM   13  O1  NTG A 404       7.370  -5.853  25.407  1.00  0.00    -0.378 OA
+HETATM   14  C10 NTG A 404       7.361  -4.724  26.246  1.00  0.00     0.175 C
+HETATM   15  C11 NTG A 404       8.778  -4.134  26.466  1.00  0.00     0.118 C
+ENDBRANCH   6   9
+TORSDOF 1

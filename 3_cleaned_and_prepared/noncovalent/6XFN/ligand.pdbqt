@@ -1,0 +1,73 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N05_6  and  C04_18
+REMARK    2  A    between atoms: C04_18  and  C03_19
+REMARK    3  A    between atoms: C04_18  and  C23_22
+REMARK    4  A    between atoms: C10_12  and  O09_36
+REMARK    5  A    between atoms: C03_19  and  C02_20
+REMARK    6  A    between atoms: O09_36  and  C07_37
+REMARK    7  A    between atoms: C23_22  and  C26_25
+REMARK    8  A    between atoms: N_27  and  CM_29
+REMARK    9  A    between atoms: CM_29  and  C2_30
+ROOT
+HETATM    1  C14 UZ7 B   1       0.807   3.430  25.215  1.00  0.00     0.003 A
+HETATM    2  C13 UZ7 B   1       1.124   4.753  25.539  1.00  0.00     0.000 A
+ATOM      3  CA  LEU B   2       6.623  -0.738  23.642  1.00  0.00     0.000 C
+ATOM      4  C   LEU B   2       6.169  -2.021  22.741  1.00  0.00     0.101 C
+HETATM    5  C12 UZ7 B   1       2.369   5.237  25.122  1.00  0.00     0.003 A
+HETATM    6  N05 V1V B   3       6.810  -3.095  22.172  1.00  0.00    -0.313 NA
+ATOM      7  O   LEU B   2       5.054  -2.070  22.471  1.00  0.00    -0.410 OA
+HETATM    8  C11 UZ7 B   1       3.301   4.435  24.385  1.00  0.00     0.033 A
+ATOM      9  CB  LEU B   2       7.165  -1.182  25.030  1.00  0.00     0.000 C
+ATOM     10  H1  LEU B   2       6.004  -2.070  22.471  1.00  0.00     0.205 HD
+ATOM     11  CD1 LEU B   2       6.571  -0.878  27.559  1.00  0.00     0.000 C
+HETATM   12  C10 UZ7 B   1       3.024   3.074  24.070  1.00  0.00     0.087 A
+HETATM   13  H05 V1V B   3       6.174  -3.712  21.667  1.00  0.00     0.122 HD
+ATOM     14  H2  LEU B   2       4.808  -1.152  22.471  1.00  0.00     0.205 HD
+ATOM     15  CD2 LEU B   2       7.943   0.846  26.420  1.00  0.00     0.000 C
+ATOM     16  CG  LEU B   2       6.820  -0.177  26.243  1.00  0.00     0.000 C
+HETATM   17  C15 UZ7 B   1       1.711   2.610  24.480  1.00  0.00     0.033 A
+ENDROOT
+BRANCH   6  18
+HETATM   18  C04 V1V B   3       8.048  -3.503  22.132  1.00  0.00     0.091 C
+BRANCH  18  19
+HETATM   19  C03 V1V B   3       8.265  -4.879  22.858  1.00  0.00     0.021 C
+BRANCH  19  20
+HETATM   20  C02 V1V B   3       7.220  -5.267  23.893  1.00  0.00    -0.002 C
+HETATM   21  C01 V1V B   3       6.008  -5.965  23.250  1.00  0.00     0.004 C
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+BRANCH  18  22
+HETATM   22  C23 V1V B   3       8.509  -3.686  20.512  1.00  0.00     0.213 C
+HETATM   23  O24 V1V B   3       9.849  -3.292  20.637  1.00  0.00    -0.381 OA
+HETATM   24  H24 V1V B   3      10.107  -3.395  19.729  1.00  0.00     0.210 HD
+BRANCH  22  25
+HETATM   25  C26 V1V B   3       7.818  -2.598  19.525  1.00  0.00     0.231 C
+HETATM   26  O27 V1V B   3       6.662  -2.538  19.253  1.00  0.00    -0.277 OA
+HETATM   27  N   APY B   4       8.721  -1.649  18.937  1.00  0.00    -0.250 N
+HETATM   28  H   APY B   4       9.693  -1.637  19.245  1.00  0.00     0.131 HD
+BRANCH  27  29
+HETATM   29  CM  APY B   4       8.288  -0.686  17.898  1.00  0.00     0.144 C
+BRANCH  29  30
+HETATM   30  C2  APY B   4       7.290   0.432  18.200  1.00  0.00     0.055 A
+HETATM   31  C3  APY B   4       6.832   0.715  19.488  1.00  0.00     0.024 A
+HETATM   32  C4  APY B   4       5.914   1.739  19.714  1.00  0.00     0.003 A
+HETATM   33  C5  APY B   4       5.462   2.452  18.625  1.00  0.00     0.020 A
+HETATM   34  C6  APY B   4       5.934   2.101  17.375  1.00  0.00     0.111 A
+HETATM   35  N1  APY B   4       6.838   1.114  17.109  1.00  0.00    -0.259 NA
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  22  25
+ENDBRANCH  18  22
+ENDBRANCH   6  18
+BRANCH  12  36
+HETATM   36  O09 UZ7 B   1       3.903   2.124  23.217  1.00  0.00    -0.265 OA
+BRANCH  36  37
+HETATM   37  C07 UZ7 B   1       5.241   1.501  23.513  1.00  0.00     0.340 C
+ATOM     38  N   LEU B   2       5.317   0.122  23.911  1.00  0.00    -0.247 N
+ATOM     39  H2  LEU B   2       5.945   0.055  24.712  1.00  0.00     0.129 HD
+ATOM     40  H1  LEU B   2       4.469  -0.403  24.125  1.00  0.00     0.129 HD
+HETATM   41  O08 UZ7 B   1       6.235   2.117  23.262  1.00  0.00    -0.245 OA
+ENDBRANCH  36  37
+ENDBRANCH  12  36
+TORSDOF 9

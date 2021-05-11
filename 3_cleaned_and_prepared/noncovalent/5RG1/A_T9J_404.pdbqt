@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C3_6
+REMARK    2  A    between atoms: C3_6  and  C4_7
+REMARK    3  A    between atoms: C3_6  and  C11_16
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK    5  A    between atoms: N2_17  and  C12_20
+REMARK    6  A    between atoms: C12_20  and  C13_21
+ROOT
+HETATM    1  N1  T9J A 404       7.991   2.594  22.440  1.00  0.00    -0.247 N
+HETATM    2  C2  T9J A 404       7.281   3.596  22.950  1.00  0.00     0.198 C
+HETATM    3  C1  T9J A 404       7.712   4.976  22.568  1.00  0.00     0.105 C
+HETATM    4  H1  T9J A 404       8.649   2.794  21.687  1.00  0.00     0.131 HD
+HETATM    5  O1  T9J A 404       6.307   3.385  23.664  1.00  0.00    -0.280 OA
+ENDROOT
+BRANCH   1   6
+HETATM    6  C3  T9J A 404       7.866   1.223  22.914  1.00  0.00     0.148 C
+BRANCH   6   7
+HETATM    7  C4  T9J A 404       6.526   0.583  22.515  1.00  0.00     0.063 C
+BRANCH   7   8
+HETATM    8  C5  T9J A 404       6.273   0.626  21.028  1.00  0.00    -0.045 A
+HETATM    9  C6  T9J A 404       5.386   1.538  20.475  1.00  0.00     0.006 A
+HETATM   10  H2  T9J A 404       6.175   0.192  16.357  1.00  0.00     0.217 HD
+HETATM   11  C7  T9J A 404       5.174   1.599  19.108  1.00  0.00     0.033 A
+HETATM   12  C10 T9J A 404       6.951  -0.224  20.169  1.00  0.00     0.006 A
+HETATM   13  C8  T9J A 404       5.863   0.737  18.273  1.00  0.00     0.073 A
+HETATM   14  C9  T9J A 404       6.755  -0.172  18.802  1.00  0.00     0.033 A
+HETATM   15  O2  T9J A 404       5.702   0.784  16.930  1.00  0.00    -0.360 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  16
+HETATM   16  C11 T9J A 404       9.043   0.453  22.330  1.00  0.00     0.219 C
+HETATM   17  N2  T9J A 404       9.096  -0.844  22.611  1.00  0.00    -0.246 N
+HETATM   18  H2  T9J A 404       8.505  -1.223  23.351  1.00  0.00     0.131 HD
+HETATM   19  O3  T9J A 404       9.866   1.017  21.611  1.00  0.00    -0.278 OA
+BRANCH  17  20
+HETATM   20  C12 T9J A 404       9.980  -1.728  21.882  1.00  0.00     0.179 C
+BRANCH  20  21
+HETATM   21  C13 T9J A 404      11.351  -1.592  22.376  1.00  0.00    -0.074 C
+HETATM   22  C14 T9J A 404      12.458  -1.642  22.833  1.00  0.00    -0.022 C
+HETATM   23 BR1  T9J A 404      14.180  -1.925  23.660  1.00  0.00     0.011 Br
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH   6  16
+ENDBRANCH   1   6
+TORSDOF 6

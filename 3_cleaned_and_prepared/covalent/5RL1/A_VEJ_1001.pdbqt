@@ -1,0 +1,66 @@
+REMARK 10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C5_5
+REMARK    2  A    between atoms: C5_5  and  C6_6
+REMARK    3  A    between atoms: C4_2  and  C3_10
+REMARK    4  A    between atoms: C3_10  and  N_11
+REMARK    5  A    between atoms: C3_10  and  C9_26
+REMARK    6  A    between atoms: C6_6  and  C7_7
+REMARK    7  A    between atoms: C7_7  and  O2_8
+REMARK    8  A    between atoms: N_11  and  C14_14
+REMARK    9  A    between atoms: C2_13  and  C1_24
+REMARK   10  A    between atoms: C17_17  and  C20_20
+ROOT
+HETATM    1  N1  VEJ A1001       8.407   1.677  22.929  1.00  0.00    -0.257 N
+HETATM    2  C4  VEJ A1001       8.488   0.977  21.797  1.00  0.00     0.223 C
+HETATM    3  O1  VEJ A1001       9.387   1.154  20.985  1.00  0.00    -0.277 OA
+HETATM    4  H1  VEJ A1001       7.614   1.516  23.550  1.00  0.00     0.130 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  C5  VEJ A1001       9.410   2.665  23.312  1.00  0.00     0.091 C
+BRANCH   5   6
+HETATM    6  C6  VEJ A1001      10.777   2.039  23.555  1.00  0.00     0.043 C
+BRANCH   6   7
+HETATM    7  C7  VEJ A1001      11.875   3.031  23.855  1.00  0.00     0.160 C
+BRANCH   7   8
+HETATM    8  O2  VEJ A1001      12.013   4.039  22.876  1.00  0.00    -0.383 OA
+HETATM    9  C8  VEJ A1001      13.305   4.635  22.906  1.00  0.00     0.193 C
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   2  10
+HETATM   10  C3  VEJ A1001       7.370  -0.039  21.504  1.00  0.00     0.183 C
+BRANCH  10  11
+HETATM   11  N   VEJ A1001       7.741  -1.457  21.783  1.00  0.00    -0.198 N
+HETATM   12  O   VEJ A1001       5.739  -2.237  21.079  1.00  0.00    -0.279 OA
+HETATM   13  C2  VEJ A1001       6.875  -2.466  21.457  1.00  0.00     0.208 C
+BRANCH  11  14
+HETATM   14  C14 VEJ A1001       8.987  -1.710  22.458  1.00  0.00     0.026 A
+HETATM   15  C18 VEJ A1001      10.236  -2.013  24.497  1.00  0.00     0.006 A
+HETATM   16  C19 VEJ A1001       9.023  -1.846  23.845  1.00  0.00     0.020 A
+HETATM   17  C17 VEJ A1001      11.436  -2.031  23.791  1.00  0.00    -0.042 A
+HETATM   18  C15 VEJ A1001      10.179  -1.760  21.741  1.00  0.00     0.020 A
+HETATM   19  C16 VEJ A1001      11.385  -1.915  22.403  1.00  0.00     0.006 A
+BRANCH  17  20
+HETATM   20  C20 VEJ A1001      12.778  -2.063  24.535  1.00  0.00    -0.013 C
+HETATM   21  C23 VEJ A1001      12.987  -0.719  25.226  1.00  0.00     0.015 C
+HETATM   22  C21 VEJ A1001      13.967  -2.279  23.589  1.00  0.00     0.015 C
+HETATM   23  C22 VEJ A1001      12.802  -3.187  25.584  1.00  0.00     0.015 C
+ENDBRANCH  17  20
+ENDBRANCH  11  14
+BRANCH  13  24
+HETATM   24  C1  VEJ A1001       7.309  -3.899  21.666  1.00  0.00     0.089 C
+HETATM   25  C   VEJ A1001       8.302  -4.475  20.633  1.00  0.00     0.013 C
+ENDBRANCH  13  24
+ENDBRANCH  10  11
+BRANCH  10  26
+HETATM   26  C9  VEJ A1001       6.692   0.238  20.170  1.00  0.00    -0.003 A
+HETATM   27  C10 VEJ A1001       7.282  -0.103  18.959  1.00  0.00     0.116 A
+HETATM   28  C11 VEJ A1001       5.705   1.014  17.743  1.00  0.00     0.111 A
+HETATM   29  C13 VEJ A1001       5.526   0.989  20.109  1.00  0.00     0.008 A
+HETATM   30  N2  VEJ A1001       6.822   0.281  17.762  1.00  0.00    -0.263 NA
+HETATM   31  C12 VEJ A1001       5.020   1.387  18.886  1.00  0.00     0.020 A
+ENDBRANCH  10  26
+ENDBRANCH   2  10
+TORSDOF 10

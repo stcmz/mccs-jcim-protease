@@ -1,0 +1,26 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_2  and  C08_6
+REMARK    2  A    between atoms: C04_8  and  C02_11
+ROOT
+HETATM    1  C10 T54 A 404      12.297   0.400  23.386  1.00  0.00     0.011 A
+HETATM    2  C09 T54 A 404      11.284  -0.517  23.013  1.00  0.00    -0.037 A
+HETATM    3  C13 T54 A 404      11.651  -1.512  22.085  1.00  0.00     0.049 A
+HETATM    4  C11 T54 A 404      13.547   0.185  22.754  1.00  0.00     0.045 A
+HETATM    5  S12 T54 A 404      13.339  -1.206  21.711  1.00  0.00    -0.105 SA
+ENDROOT
+BRANCH   2   6
+HETATM    6  C08 T54 A 404       9.862  -0.426  23.620  1.00  0.00     0.031 C
+HETATM    7  C07 T54 A 404       8.932  -1.154  22.945  1.00  0.00     0.009 C
+HETATM    8  C04 T54 A 404       9.294   1.139  23.547  1.00  0.00     0.079 C
+HETATM    9  C05 T54 A 404       7.970   1.051  23.708  1.00  0.00     0.013 C
+HETATM   10  C06 T54 A 404       7.569  -0.455  23.293  1.00  0.00     0.001 C
+BRANCH   8  11
+HETATM   11  C02 T54 A 404       9.672   1.800  22.179  1.00  0.00     0.202 C
+HETATM   12  N01 T54 A 404      10.468   3.035  22.181  1.00  0.00    -0.272 N
+HETATM   13 2H01 T54 A 404      11.322   2.875  22.715  1.00  0.00     0.127 HD
+HETATM   14 1H01 T54 A 404      10.714   3.466  21.290  1.00  0.00     0.127 HD
+HETATM   15  O03 T54 A 404       9.329   1.303  21.126  1.00  0.00    -0.279 OA
+ENDBRANCH   8  11
+ENDBRANCH   2   6
+TORSDOF 2

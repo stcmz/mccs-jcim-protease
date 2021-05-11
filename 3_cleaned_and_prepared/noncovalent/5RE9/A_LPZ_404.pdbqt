@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_7  and  C7_10
+REMARK    2  A    between atoms: C7_10  and  O_11
+REMARK    3  A    between atoms: O_11  and  C4_12
+ROOT
+HETATM    1  N1  LPZ A 404       6.166   2.788  29.807  1.00  0.00    -0.303 NA
+HETATM    2  C13 LPZ A 404       5.949   3.658  30.963  1.00  0.00     0.105 C
+HETATM    3  C10 LPZ A 404       5.596   1.464  30.041  1.00  0.00     0.100 C
+HETATM    4  C9  LPZ A 404       5.693   0.613  28.798  1.00  0.00     0.108 C
+HETATM    5  N   LPZ A 404       7.063   0.533  28.286  1.00  0.00    -0.240 N
+HETATM    6  C12 LPZ A 404       7.823   1.788  28.296  1.00  0.00     0.108 C
+HETATM    7  C8  LPZ A 404       7.577  -0.589  27.745  1.00  0.00     0.230 C
+HETATM    8  O1  LPZ A 404       7.336  -1.724  28.158  1.00  0.00    -0.277 OA
+HETATM    9  C11 LPZ A 404       7.591   2.626  29.535  1.00  0.00     0.100 C
+ENDROOT
+BRANCH   7  10
+HETATM   10  C7  LPZ A 404       8.426  -0.392  26.501  1.00  0.00     0.259 C
+BRANCH  10  11
+HETATM   11  O   LPZ A 404       8.949  -1.617  26.007  1.00  0.00    -0.336 OA
+BRANCH  11  12
+HETATM   12  C4  LPZ A 404      10.073  -1.531  25.226  1.00  0.00     0.077 A
+HETATM   13  C5  LPZ A 404      10.633  -2.675  24.679  1.00  0.00     0.033 A
+HETATM   14  C6  LPZ A 404      11.769  -2.569  23.891  1.00  0.00     0.006 A
+HETATM   15  C1  LPZ A 404      12.370  -1.350  23.634  1.00  0.00    -0.050 A
+HETATM   16  C   LPZ A 404      13.606  -1.251  22.778  1.00  0.00     0.044 C
+HETATM   17  C2  LPZ A 404      11.800  -0.223  24.188  1.00  0.00     0.006 A
+HETATM   18  C3  LPZ A 404      10.664  -0.298  24.974  1.00  0.00     0.033 A
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+TORSDOF 3

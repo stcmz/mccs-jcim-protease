@@ -1,0 +1,27 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C4_10
+REMARK    2  A    between atoms: C4_10  and  C5_11
+ROOT
+HETATM    1  N1  T6Y A 404       8.426  -2.618  23.287  1.00  0.00    -0.295 NA
+HETATM    2  C2  T6Y A 404       6.390  -3.362  22.143  1.00  0.00     0.108 C
+HETATM    3  C9  T6Y A 404       8.852  -1.952  22.051  1.00  0.00     0.100 C
+HETATM    4  C   T6Y A 404       7.100  -2.528  18.461  1.00  0.00     0.105 C
+HETATM    5  C10 T6Y A 404       7.670  -1.552  21.194  1.00  0.00     0.108 C
+HETATM    6  N   T6Y A 404       6.828  -2.717  20.909  1.00  0.00    -0.242 N
+HETATM    7  O   T6Y A 404       5.755  -4.158  19.552  1.00  0.00    -0.280 OA
+HETATM    8  C1  T6Y A 404       6.496  -3.187  19.687  1.00  0.00     0.200 C
+HETATM    9  C3  T6Y A 404       7.599  -3.779  22.945  1.00  0.00     0.100 C
+ENDROOT
+BRANCH   1  10
+HETATM   10  C4  T6Y A 404       9.590  -3.023  24.096  1.00  0.00     0.127 C
+BRANCH  10  11
+HETATM   11  C5  T6Y A 404       9.291  -4.111  25.082  1.00  0.00     0.005 A
+HETATM   12  C6  T6Y A 404       9.747  -5.424  25.050  1.00  0.00     0.014 A
+HETATM   13  C8  T6Y A 404       8.533  -5.450  27.016  1.00  0.00     0.078 A
+HETATM   14  C7  T6Y A 404       9.430  -6.151  26.221  1.00  0.00     0.028 A
+HETATM   15  S   T6Y A 404       8.271  -3.850  26.453  1.00  0.00    -0.080 SA
+HETATM   16 CL   T6Y A 404       7.710  -6.026  28.408  1.00  0.00    -0.076 Cl
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 2

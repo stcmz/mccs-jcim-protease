@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C08_3  and  C05_6
+ROOT
+HETATM    1  C10 R7Q A 504       7.159  -1.619  19.471  1.00  0.00     0.054 C
+HETATM    2  C12 R7Q A 504       7.786  -2.545  18.425  1.00  0.00     0.015 C
+HETATM    3  C08 R7Q A 504       6.547  -0.375  18.830  1.00  0.00     0.166 C
+HETATM    4  C11 R7Q A 504       8.234  -1.204  20.475  1.00  0.00     0.015 C
+HETATM    5  O09 R7Q A 504       6.933   0.009  17.779  1.00  0.00    -0.292 OA
+ENDROOT
+BRANCH   3   6
+HETATM    6  C05 R7Q A 504       5.412   0.353  19.551  1.00  0.00     0.018 A
+HETATM    7  C04 R7Q A 504       4.753   1.325  18.956  1.00  0.00     0.011 A
+HETATM    8  C03 R7Q A 504       3.618   2.044  19.683  1.00  0.00     0.004 A
+HETATM    9  C02 R7Q A 504       3.295   1.688  20.910  1.00  0.00    -0.050 A
+HETATM   10  C01 R7Q A 504       2.155   2.402  21.633  1.00  0.00     0.044 C
+HETATM   11  C07 R7Q A 504       4.056   0.563  21.601  1.00  0.00     0.004 A
+HETATM   12  C06 R7Q A 504       5.038  -0.053  20.974  1.00  0.00     0.011 A
+ENDBRANCH   3   6
+TORSDOF 1

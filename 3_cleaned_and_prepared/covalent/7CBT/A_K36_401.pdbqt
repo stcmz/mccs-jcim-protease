@@ -1,0 +1,67 @@
+REMARK 10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_1  and  O8_2
+REMARK    2  A    between atoms: C7_1  and  C1_27
+REMARK    3  A    between atoms: O8_2  and  C9_3
+REMARK    4  A    between atoms: N11_4  and  C12_7
+REMARK    5  A    between atoms: C12_7  and  C17_8
+REMARK    6  A    between atoms: C12_7  and  C13_23
+REMARK    7  A    between atoms: N19_11  and  C20_12
+REMARK    8  A    between atoms: C20_12  and  C24_13
+REMARK    9  A    between atoms: C20_12  and  C21_20
+REMARK   10  A    between atoms: C24_13  and  C25_14
+ROOT
+HETATM    1  C7  K36 A 401      -9.723  31.884   0.209  1.00  0.00     0.207 C
+ENDROOT
+BRANCH   1   2
+HETATM    2  O8  K36 A 401      -9.271  31.344  -1.008  1.00  0.00    -0.298 OA
+BRANCH   2   3
+HETATM    3  C9  K36 A 401      -8.834  30.025  -0.750  1.00  0.00     0.339 C
+HETATM    4  N11 K36 A 401      -7.718  29.729   0.177  1.00  0.00    -0.222 N
+HETATM    5  H11 K36 A 401      -7.152  30.478   0.576  1.00  0.00     0.133 HD
+HETATM    6  O10 K36 A 401      -9.426  29.163  -1.291  1.00  0.00    -0.245 OA
+BRANCH   4   7
+HETATM    7  C12 K36 A 401      -7.456  28.345   0.499  1.00  0.00     0.146 C
+BRANCH   7   8
+HETATM    8  C17 K36 A 401      -8.788  27.775   1.037  1.00  0.00     0.218 C
+HETATM    9  O18 K36 A 401      -9.381  28.425   1.837  1.00  0.00    -0.278 OA
+HETATM   10  H19 K36 A 401      -8.706  25.961  -0.120  1.00  0.00     0.131 HD
+HETATM   11  N19 K36 A 401      -9.284  26.472   0.548  1.00  0.00    -0.251 N
+BRANCH  11  12
+HETATM   12  C20 K36 A 401     -10.568  25.859   0.966  1.00  0.00     0.091 C
+BRANCH  12  13
+HETATM   13  C24 K36 A 401     -11.593  25.830  -0.172  1.00  0.00     0.058 C
+BRANCH  13  14
+HETATM   14  C25 K36 A 401     -11.975  27.247  -0.802  1.00  0.00     0.003 C
+HETATM   15  C29 K36 A 401     -12.811  27.062  -1.980  1.00  0.00     0.270 C
+HETATM   16  O30 K36 A 401     -12.586  26.372  -2.914  1.00  0.00    -0.266 OA
+HETATM   17  N28 K36 A 401     -14.091  27.854  -1.816  1.00  0.00    -0.222 NA
+HETATM   18  C27 K36 A 401     -13.964  28.597  -0.505  1.00  0.00     0.092 C
+HETATM   19  C26 K36 A 401     -12.844  27.992   0.235  1.00  0.00     0.083 C
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  20
+HETATM   20  C21 K36 A 401     -10.172  24.424   1.386  1.00  0.00     0.175 C
+HETATM   21  O22 K36 A 401     -11.064  23.890   2.337  1.00  0.00    -0.393 OA
+HETATM   22  H22 K36 A 401     -10.821  23.009   2.595  1.00  0.00     0.209 HD
+ENDBRANCH  12  20
+ENDBRANCH  11  12
+ENDBRANCH   7   8
+BRANCH   7  23
+HETATM   23  C13 K36 A 401      -6.441  28.103   1.574  1.00  0.00     0.031 C
+HETATM   24  C14 K36 A 401      -5.075  27.875   0.927  1.00  0.00    -0.015 C
+HETATM   25  C15 K36 A 401      -4.750  29.021  -0.006  1.00  0.00     0.007 C
+HETATM   26  C16 K36 A 401      -4.075  27.886   2.081  1.00  0.00     0.007 C
+ENDBRANCH   7  23
+ENDBRANCH   4   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  27
+HETATM   27  C1  K36 A 401     -11.252  31.957   0.285  1.00  0.00    -0.021 A
+HETATM   28  C2  K36 A 401     -11.972  32.181  -0.874  1.00  0.00     0.006 A
+HETATM   29  C6  K36 A 401     -11.895  31.819   1.520  1.00  0.00     0.006 A
+HETATM   30  C5  K36 A 401     -13.277  31.905   1.588  1.00  0.00     0.000 A
+HETATM   31  C3  K36 A 401     -13.362  32.264  -0.795  1.00  0.00     0.000 A
+HETATM   32  C4  K36 A 401     -14.013  32.132   0.428  1.00  0.00     0.000 A
+ENDBRANCH   1  27
+TORSDOF 10

@@ -1,0 +1,67 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C5_5
+REMARK    2  A    between atoms: C4_2  and  C3_14
+REMARK    3  A    between atoms: C3_14  and  C13_15
+REMARK    4  A    between atoms: C3_14  and  N_21
+REMARK    5  A    between atoms: N_21  and  C18_24
+REMARK    6  A    between atoms: C9_11  and  O2_12
+REMARK    7  A    between atoms: C2_22  and  C1_34
+REMARK    8  A    between atoms: C21_25  and  C24_30
+REMARK    9  A    between atoms: C24_30  and  O3_32
+ROOT
+HETATM    1  N1  UJ4 A 405       8.066   2.064  22.671  1.00  0.00    -0.227 N
+HETATM    2  C4  UJ4 A 405       8.353   1.224  21.646  1.00  0.00     0.227 C
+HETATM    3  O1  UJ4 A 405       9.378   1.300  20.979  1.00  0.00    -0.277 OA
+HETATM    4  H1  UJ4 A 405       7.246   1.841  23.236  1.00  0.00     0.136 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  C5  UJ4 A 405       8.800   3.226  23.032  1.00  0.00     0.025 A
+HETATM    6  C11 UJ4 A 405       9.037   5.620  23.033  1.00  0.00     0.034 A
+HETATM    7  C6  UJ4 A 405       9.974   3.096  23.804  1.00  0.00    -0.030 A
+HETATM    8  C12 UJ4 A 405       8.340   4.487  22.648  1.00  0.00     0.023 A
+HETATM    9  C8  UJ4 A 405      10.638   4.251  24.198  1.00  0.00     0.037 A
+HETATM   10  C7  UJ4 A 405      10.536   1.755  24.197  1.00  0.00     0.045 C
+HETATM   11  C9  UJ4 A 405      10.172   5.501  23.822  1.00  0.00     0.076 A
+BRANCH  11  12
+HETATM   12  O2  UJ4 A 405      10.785   6.665  24.219  1.00  0.00    -0.348 OA
+HETATM   13  C10 UJ4 A 405      11.939   6.583  25.064  1.00  0.00     0.202 C
+ENDBRANCH  11  12
+ENDBRANCH   1   5
+BRANCH   2  14
+HETATM   14  C3  UJ4 A 405       7.277   0.180  21.300  1.00  0.00     0.183 C
+BRANCH  14  15
+HETATM   15  C13 UJ4 A 405       6.610   0.476  19.963  1.00  0.00    -0.003 A
+HETATM   16  C15 UJ4 A 405       5.512   1.084  17.533  1.00  0.00     0.111 A
+HETATM   17  C17 UJ4 A 405       5.397   1.147  19.903  1.00  0.00     0.008 A
+HETATM   18  C16 UJ4 A 405       4.838   1.464  18.679  1.00  0.00     0.020 A
+HETATM   19  N2  UJ4 A 405       6.681   0.435  17.551  1.00  0.00    -0.263 NA
+HETATM   20  C14 UJ4 A 405       7.203   0.146  18.750  1.00  0.00     0.116 A
+ENDBRANCH  14  15
+BRANCH  14  21
+HETATM   21  N   UJ4 A 405       7.559  -1.259  21.575  1.00  0.00    -0.198 N
+HETATM   22  C2  UJ4 A 405       6.732  -2.280  21.196  1.00  0.00     0.208 C
+HETATM   23  O   UJ4 A 405       5.680  -2.073  20.620  1.00  0.00    -0.279 OA
+BRANCH  21  24
+HETATM   24  C18 UJ4 A 405       8.753  -1.502  22.340  1.00  0.00     0.026 A
+HETATM   25  C21 UJ4 A 405      11.122  -1.694  23.824  1.00  0.00    -0.019 A
+HETATM   26  C19 UJ4 A 405       9.975  -1.699  21.699  1.00  0.00     0.020 A
+HETATM   27  C20 UJ4 A 405      11.142  -1.791  22.439  1.00  0.00     0.008 A
+HETATM   28  C22 UJ4 A 405       9.892  -1.574  24.458  1.00  0.00     0.008 A
+HETATM   29  C23 UJ4 A 405       8.718  -1.466  23.732  1.00  0.00     0.020 A
+BRANCH  25  30
+HETATM   30  C24 UJ4 A 405      12.406  -1.524  24.602  1.00  0.00     0.145 C
+HETATM   31  C25 UJ4 A 405      13.361  -0.556  23.938  1.00  0.00     0.043 C
+BRANCH  30  32
+HETATM   32  O3  UJ4 A 405      13.152  -2.730  24.643  1.00  0.00    -0.375 OA
+HETATM   33  C26 UJ4 A 405      13.000  -3.423  25.872  1.00  0.00     0.194 C
+ENDBRANCH  30  32
+ENDBRANCH  25  30
+ENDBRANCH  21  24
+BRANCH  22  34
+HETATM   34  C1  UJ4 A 405       7.150  -3.697  21.495  1.00  0.00     0.089 C
+HETATM   35  C   UJ4 A 405       7.152  -4.536  20.243  1.00  0.00     0.013 C
+ENDBRANCH  22  34
+ENDBRANCH  14  21
+ENDBRANCH   2  14
+TORSDOF 9

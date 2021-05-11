@@ -1,0 +1,80 @@
+REMARK 12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_4  and  CA_6
+REMARK    2  A    between atoms: CA_6  and  C_7
+REMARK    3  A    between atoms: CA_6  and  CB_36
+REMARK    4  A    between atoms: N_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  C_12
+REMARK    6  A    between atoms: CA_11  and  CB_32
+REMARK    7  A    between atoms: N_15  and  CA_16
+REMARK    8  A    between atoms: CA_16  and  C_17
+REMARK    9  A    between atoms: CA_16  and  CB_20
+REMARK   10  A    between atoms: CB_20  and  CG_21
+REMARK   11  A    between atoms: CG_21  and  CD_22
+REMARK   12  A    between atoms: CD_22  and  NE_23
+ROOT
+HETATM    1  C   ACE C   1     -20.246   5.048  16.723  1.00  0.00     0.198 C
+HETATM    2  CH3 ACE C   1     -19.346   6.022  17.425  1.00  0.00     0.105 C
+HETATM    3  O   ACE C   1     -21.414   4.867  17.066  1.00  0.00    -0.280 OA
+ATOM      4  N   LEU C   2     -19.696   4.399  15.701  1.00  0.00    -0.247 N
+ATOM      5  H   LEU C   2     -18.725   4.595  15.459  1.00  0.00     0.131 HD
+ENDROOT
+BRANCH   4   6
+ATOM      6  CA  LEU C   2     -20.432   3.417  14.914  1.00  0.00     0.144 C
+BRANCH   6   7
+ATOM      7  C   LEU C   2     -19.685   2.090  14.895  1.00  0.00     0.219 C
+ATOM      8  H   LEU C   3     -21.315   1.132  15.642  1.00  0.00     0.131 HD
+ATOM      9  N   LEU C   3     -20.351   1.024  15.327  1.00  0.00    -0.246 N
+ATOM     10  O   LEU C   2     -18.526   2.034  14.491  1.00  0.00    -0.278 OA
+BRANCH   9  11
+ATOM     11  CA  LEU C   3     -19.733  -0.298  15.360  1.00  0.00     0.144 C
+BRANCH  11  12
+ATOM     12  C   LEU C   3     -19.717  -0.932  13.973  1.00  0.00     0.218 C
+HETATM   13  H   AR7 C   4     -17.618  -0.822  13.598  1.00  0.00     0.131 HD
+ATOM     14  O   LEU C   3     -20.765  -1.133  13.360  1.00  0.00    -0.278 OA
+HETATM   15  N   AR7 C   4     -18.514  -1.139  13.227  1.00  0.00    -0.252 N
+BRANCH  15  16
+HETATM   16  CA  AR7 C   4     -18.577  -1.800  11.944  1.00  0.00     0.087 C
+BRANCH  16  17
+HETATM   17  C   AR7 C   4     -18.010  -3.248  11.975  1.00  0.00     0.174 C
+HETATM   18  H   AR7 C   4     -17.642  -4.729  10.724  1.00  0.00     0.209 HD
+HETATM   19  O   AR7 C   4     -17.988  -3.845  10.705  1.00  0.00    -0.393 OA
+ENDBRANCH  16  17
+BRANCH  16  20
+HETATM   20  CB  AR7 C   4     -17.815  -1.020  10.868  1.00  0.00     0.025 C
+BRANCH  20  21
+HETATM   21  CG  AR7 C   4     -17.691   0.439  11.250  1.00  0.00     0.044 C
+BRANCH  21  22
+HETATM   22  CD  AR7 C   4     -18.601   1.271  10.347  1.00  0.00     0.247 C
+BRANCH  22  23
+HETATM   23  NE  AR7 C   4     -19.998   0.920  10.514  1.00  0.00    -0.445 NA
+HETATM   24  CZ  AR7 C   4     -21.013   1.527   9.811  1.00  0.00     0.506 C
+HETATM   25  HE  AR7 C   4     -20.239   0.189  11.184  1.00  0.00     0.315 HD
+HETATM   26  NH1 AR7 C   4     -20.736   2.518   8.895  1.00  0.00    -0.457 NA
+HETATM   27  NH2 AR7 C   4     -22.321   1.138  10.026  1.00  0.00    -0.457 NA
+HETATM   28 1HH1 AR7 C   4     -21.488   2.968   8.374  1.00  0.00     0.311 HD
+HETATM   29 2HH1 AR7 C   4     -19.770   2.804   8.737  1.00  0.00     0.311 HD
+HETATM   30 1HH2 AR7 C   4     -23.073   1.588   9.505  1.00  0.00     0.311 HD
+HETATM   31 2HH2 AR7 C   4     -22.524   1.218  11.023  1.00  0.00     0.311 HD
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  16  20
+ENDBRANCH  15  16
+ENDBRANCH  11  12
+BRANCH  11  32
+ATOM     32  CB  LEU C   3     -20.464  -1.209  16.347  1.00  0.00     0.031 C
+ATOM     33  CG  LEU C   3     -20.293  -0.869  17.828  1.00  0.00    -0.015 C
+ATOM     34  CD2 LEU C   3     -18.821  -0.873  18.206  1.00  0.00     0.007 C
+ATOM     35  CD1 LEU C   3     -21.083  -1.839  18.700  1.00  0.00     0.007 C
+ENDBRANCH  11  32
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   6  36
+ATOM     36  CB  LEU C   2     -20.650   3.917  13.480  1.00  0.00     0.031 C
+ATOM     37  CG  LEU C   2     -21.894   4.757  13.175  1.00  0.00    -0.015 C
+ATOM     38  CD1 LEU C   2     -23.157   3.977  13.510  1.00  0.00     0.007 C
+ATOM     39  CD2 LEU C   2     -21.877   6.098  13.896  1.00  0.00     0.007 C
+ENDBRANCH   6  36
+ENDBRANCH   4   6
+TORSDOF 12

@@ -1,0 +1,30 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N08_2  and  C09_5
+REMARK    2  A    between atoms: C09_5  and  C10_6
+REMARK    3  A    between atoms: C10_6  and  C11_7
+REMARK    4  A    between atoms: C11_7  and  C12_8
+REMARK    5  A    between atoms: C12_8  and  C13_9
+ROOT
+HETATM    1  C07 JRY A 401     -11.876  17.360  65.601  1.00  0.00     0.309 C
+HETATM    2  N08 JRY A 401     -11.204  16.308  66.355  1.00  0.00    -0.261 N
+HETATM    3  O15 JRY A 401     -11.338  17.944  64.721  1.00  0.00    -0.283 OA
+HETATM    4  H08 JRY A 401     -10.250  16.036  66.120  1.00  0.00     0.130 HD
+ENDROOT
+BRANCH   2   5
+HETATM    5  C09 JRY A 401     -11.911  15.645  67.452  1.00  0.00     0.089 C
+BRANCH   5   6
+HETATM    6  C10 JRY A 401     -11.004  15.546  68.685  1.00  0.00     0.016 C
+BRANCH   6   7
+HETATM    7  C11 JRY A 401     -11.699  15.770  70.038  1.00  0.00     0.001 C
+BRANCH   7   8
+HETATM    8  C12 JRY A 401     -12.665  14.669  70.456  1.00  0.00    -0.000 C
+BRANCH   8   9
+HETATM    9  C13 JRY A 401     -12.996  14.683  71.948  1.00  0.00    -0.003 C
+HETATM   10  C14 JRY A 401     -14.494  14.792  72.230  1.00  0.00     0.004 C
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+TORSDOF 5

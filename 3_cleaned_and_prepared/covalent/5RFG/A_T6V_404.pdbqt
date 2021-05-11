@@ -1,0 +1,28 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C06_5  and  N05_7
+REMARK    2  A    between atoms: N05_7  and  C12_11
+ROOT
+HETATM    1  C10 T6V A 404       8.582  -4.255  25.000  1.00  0.00     0.002 A
+HETATM    2  C09 T6V A 404       9.572  -5.203  24.887  1.00  0.00     0.000 A
+HETATM    3  C08 T6V A 404       9.584  -6.053  23.803  1.00  0.00     0.002 A
+HETATM    4  C07 T6V A 404       8.607  -5.963  22.825  1.00  0.00     0.020 A
+HETATM    5  C06 T6V A 404       7.616  -4.988  22.919  1.00  0.00     0.027 A
+HETATM    6  C11 T6V A 404       7.604  -4.141  24.025  1.00  0.00     0.020 A
+ENDROOT
+BRANCH   5   7
+HETATM    7  N05 T6V A 404       6.568  -4.899  21.935  1.00  0.00    -0.187 N
+HETATM    8  C03 T6V A 404       8.187  -4.026  20.284  1.00  0.00     0.106 C
+HETATM    9  C02 T6V A 404       6.767  -4.319  20.705  1.00  0.00     0.206 C
+HETATM   10  O01 T6V A 404       5.832  -4.054  19.959  1.00  0.00    -0.279 OA
+BRANCH   7  11
+HETATM   11  C12 T6V A 404       5.253  -5.434  22.271  1.00  0.00     0.246 C
+HETATM   12  C13 T6V A 404       5.165  -6.916  21.960  1.00  0.00     0.138 C
+HETATM   13  C14 T6V A 404       4.143  -7.490  22.569  1.00  0.00    -0.456 C
+HETATM   14  S15 T6V A 404       3.872  -6.731  24.118  1.00  0.00     2.497 S
+HETATM   15  O16 T6V A 404       4.443  -7.530  25.170  1.00  0.00    -0.933 OA
+HETATM   16  O17 T6V A 404       2.494  -6.343  24.254  1.00  0.00    -0.933 OA
+HETATM   17  C18 T6V A 404       4.899  -5.319  23.766  1.00  0.00    -0.475 C
+ENDBRANCH   7  11
+ENDBRANCH   5   7
+TORSDOF 2

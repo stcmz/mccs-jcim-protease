@@ -1,0 +1,30 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C9_5
+REMARK    2  A    between atoms: C_4  and  C1_11
+ROOT
+HETATM    1  N1  UPJ A 405       5.468  -2.862  26.528  1.00  0.00    -0.217 N
+HETATM    2  C8  UPJ A 405       4.685  -2.149  27.533  1.00  0.00     0.119 C
+HETATM    3  O   UPJ A 405       3.738  -2.958  25.088  1.00  0.00    -0.279 OA
+HETATM    4  C   UPJ A 405       4.932  -3.098  25.298  1.00  0.00     0.211 C
+ENDROOT
+BRANCH   1   5
+HETATM    5  C9  UPJ A 405       6.785  -3.267  26.920  1.00  0.00     0.025 A
+HETATM    6  C14 UPJ A 405       7.841  -2.362  26.838  1.00  0.00     0.020 A
+HETATM    7  C10 UPJ A 405       7.033  -4.598  27.255  1.00  0.00     0.020 A
+HETATM    8  C13 UPJ A 405       9.139  -2.808  27.030  1.00  0.00     0.002 A
+HETATM    9  C11 UPJ A 405       8.337  -5.026  27.443  1.00  0.00     0.002 A
+HETATM   10  C12 UPJ A 405       9.388  -4.140  27.314  1.00  0.00     0.000 A
+ENDBRANCH   1   5
+BRANCH   4  11
+HETATM   11  C1  UPJ A 405       5.855  -3.595  24.206  1.00  0.00     0.075 C
+HETATM   12  N   UPJ A 405       6.594  -4.046  21.461  1.00  0.00    -0.245 N
+HETATM   13  C7  UPJ A 405       6.325  -2.436  23.312  1.00  0.00     0.028 C
+HETATM   14  C4  UPJ A 405       6.312  -4.019  20.147  1.00  0.00     0.200 C
+HETATM   15  C6  UPJ A 405       7.250  -2.968  22.214  1.00  0.00     0.093 C
+HETATM   16  C3  UPJ A 405       6.150  -5.169  22.299  1.00  0.00     0.093 C
+HETATM   17  C5  UPJ A 405       6.873  -2.866  19.341  1.00  0.00     0.105 C
+HETATM   18  C2  UPJ A 405       5.173  -4.681  23.362  1.00  0.00     0.028 C
+HETATM   19  O1  UPJ A 405       5.643  -4.886  19.612  1.00  0.00    -0.280 OA
+ENDBRANCH   4  11
+TORSDOF 2

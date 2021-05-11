@@ -1,0 +1,51 @@
+REMARK   Accelrys Discovery Studio PDB file
+REMARK   Created:  2021-03-30T10:22:13Z
+CRYST1  113.811   52.682   46.230  90.00 102.78  90.00 C2         
+HETATM    1  C   ACE B   1      12.241   4.851  23.129  1.00 21.12           C  
+HETATM    2  O   ACE B   1      12.173   4.755  24.352  1.00 21.16           O  
+HETATM    3  CH3 ACE B   1      13.272   5.709  22.455  1.00 21.48           C  
+ATOM      4  N   LEU B   2      11.416   4.201  22.314  1.00 17.19           N  
+ATOM      5  CA  LEU B   2      10.354   3.326  22.800  1.00 17.79           C  
+ATOM      6  C   LEU B   2      10.359   1.985  22.081  1.00 17.32           C  
+ATOM      7  O   LEU B   2      10.045   1.915  20.896  1.00 18.47           O  
+ATOM      8  CB  LEU B   2       8.992   3.994  22.620  1.00 25.90           C  
+ATOM      9  CG  LEU B   2       7.991   3.793  23.752  1.00 26.98           C  
+ATOM     10  CD1 LEU B   2       8.378   4.661  24.933  1.00 29.06           C  
+ATOM     11  CD2 LEU B   2       6.587   4.111  23.272  1.00 26.67           C  
+ATOM     12  N   LEU B   3      10.696   0.921  22.803  1.00 16.64           N  
+ATOM     13  CA  LEU B   3      10.724  -0.412  22.216  1.00 16.69           C  
+ATOM     14  C   LEU B   3       9.306  -0.911  21.974  1.00 17.98           C  
+ATOM     15  O   LEU B   3       8.459  -0.858  22.865  1.00 21.09           O  
+ATOM     16  CB  LEU B   3      11.486  -1.384  23.120  1.00 16.02           C  
+ATOM     17  CG  LEU B   3      12.855  -0.896  23.603  1.00 18.45           C  
+ATOM     18  CD1 LEU B   3      13.596  -1.988  24.357  1.00 18.41           C  
+ATOM     19  CD2 LEU B   3      13.691  -0.389  22.438  1.00 16.65           C  
+HETATM   20  N   AR7 B   4       9.056  -1.400  20.764  0.45 18.22           N  
+HETATM   21  CA  AR7 B   4       7.720  -1.924  20.391  0.45 18.50           C  
+HETATM   22  C   AR7 B   4       7.841  -3.369  19.895  0.45 17.03           C  
+HETATM   23  O   AR7 B   4       7.977  -4.253  20.763  0.45 14.91           O  
+HETATM   24  CB  AR7 B   4       7.078  -1.009  19.344  0.45 19.90           C  
+HETATM   25  CG  AR7 B   4       7.244   0.479  19.625  0.45 21.55           C  
+HETATM   26  CD  AR7 B   4       6.034   1.089  20.308  0.45 24.65           C  
+HETATM   27  NE  AR7 B   4       5.785   0.562  21.643  0.45 25.08           N  
+HETATM   28  CZ  AR7 B   4       4.865   1.038  22.474  0.45 29.22           C  
+HETATM   29  NH1 AR7 B   4       3.888   1.797  22.007  0.45 30.22           N  
+HETATM   30  NH2 AR7 B   4       4.849   0.651  23.737  0.45 29.53           N  
+TER      31      AR7 B   4 
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT   14   20
+CONECT   20   21   14
+CONECT   21   20   22   24
+CONECT   22   21   23
+CONECT   23   22
+CONECT   24   21   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   29   28
+CONECT   30   28
+END

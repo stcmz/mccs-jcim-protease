@@ -1,0 +1,36 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N11_3  and  C09_7
+REMARK    2  A    between atoms: C09_7  and  N08_9
+REMARK    3  A    between atoms: N08_9  and  C07_11
+REMARK    4  A    between atoms: C07_11  and  C06_12
+ROOT
+HETATM    1  C13 JGG A 404       4.314   0.960  22.457  1.00  0.00     0.175 C
+HETATM    2  C12 JGG A 404       5.710   1.567  22.700  1.00  0.00     0.122 C
+HETATM    3  N11 JGG A 404       6.432   0.874  23.800  1.00  0.00    -0.226 N
+HETATM    4  C16 JGG A 404       5.579   0.759  25.028  1.00  0.00     0.122 C
+HETATM    5  O14 JGG A 404       3.571   0.992  23.659  1.00  0.00    -0.377 OA
+HETATM    6  C15 JGG A 404       4.146   0.262  24.728  1.00  0.00     0.175 C
+ENDROOT
+BRANCH   3   7
+HETATM    7  C09 JGG A 404       7.802   1.371  24.009  1.00  0.00     0.276 C
+HETATM    8  O10 JGG A 404       8.274   2.370  23.442  1.00  0.00    -0.261 OA
+BRANCH   7   9
+HETATM    9  N08 JGG A 404       8.548   0.609  24.910  1.00  0.00    -0.240 N
+HETATM   10  H08 JGG A 404       8.114  -0.200  25.354  1.00  0.00     0.132 HD
+BRANCH   9  11
+HETATM   11  C07 JGG A 404       9.933   0.940  25.234  1.00  0.00     0.125 C
+BRANCH  11  12
+HETATM   12  C06 JGG A 404      10.851   0.318  24.220  1.00  0.00    -0.033 A
+HETATM   13  C05 JGG A 404      10.530  -0.926  23.662  1.00  0.00     0.006 A
+HETATM   14  C04 JGG A 404      11.365  -1.503  22.714  1.00  0.00     0.019 A
+HETATM   15  C03 JGG A 404      12.524  -0.834  22.328  1.00  0.00     0.052 A
+HETATM   16  C17 JGG A 404      13.360  -1.406  21.343  1.00  0.00     0.099 C
+HETATM   17  C02 JGG A 404      12.861   0.401  22.891  1.00  0.00     0.019 A
+HETATM   18  N18 JGG A 404      14.061  -1.841  20.540  1.00  0.00    -0.191 NA
+HETATM   19  C01 JGG A 404      12.014   0.979  23.834  1.00  0.00     0.006 A
+ENDBRANCH  11  12
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+TORSDOF 4

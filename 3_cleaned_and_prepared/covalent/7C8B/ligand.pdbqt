@@ -1,0 +1,68 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_23
+REMARK    2  A    between atoms: O2_23  and  C2_24
+REMARK    3  A    between atoms: C2_24  and  C3_25
+REMARK    4  A    between atoms: N_20  and  CA_31
+REMARK    5  A    between atoms: CA_31  and  CB_32
+REMARK    6  A    between atoms: CA_31  and  C_37
+REMARK    7  A    between atoms: CB_32  and  CG_33
+REMARK    8  A    between atoms: CG_33  and  OD2_35
+ROOT
+HETATM    1  C1  PHQ D   1     -19.717  -3.287  -0.987  1.00  0.00     0.336 C
+ATOM      2  C   ALA D   3     -21.544   1.949   1.621  1.00  0.00     0.073 C
+ATOM      3  CA  VAL D   2     -21.422  -2.580   0.541  1.00  0.00     0.000 C
+HETATM    4  O1  PHQ D   1     -18.954  -4.126  -1.435  1.00  0.00    -0.246 OA
+ATOM      5  N   VAL D   2     -20.318  -3.429   0.166  1.00  0.00    -0.247 N
+ATOM      6  O   ALA D   3     -21.430   3.148   1.703  1.00  0.00    -0.410 OA
+ATOM      7  C   VAL D   2     -20.919  -1.242   0.974  1.00  0.00     0.000 C
+ATOM      8  H1  VAL D   2     -20.956  -2.727   0.541  1.00  0.00     0.129 HD
+ATOM      9  H2  VAL D   2     -20.142  -4.273   0.711  1.00  0.00     0.129 HD
+ATOM     10  O   VAL D   2     -20.187  -1.228   1.939  1.00  0.00    -0.410 OA
+ATOM     11  H2  ALA D   3     -21.676   4.066   1.703  1.00  0.00     0.205 HD
+ATOM     12  CB  VAL D   2     -22.145  -3.297   1.672  1.00  0.00     0.000 C
+ATOM     13  H2  VAL D   2     -20.433  -0.310   1.939  1.00  0.00     0.205 HD
+ATOM     14  CB  ALA D   3     -21.111   2.022  -0.797  1.00  0.00     0.000 C
+ATOM     15  H1  VAL D   2     -19.237  -1.228   1.939  1.00  0.00     0.205 HD
+ATOM     16  CG1 VAL D   2     -23.317  -2.490   2.216  1.00  0.00     0.000 C
+ATOM     17  H1  ALA D   3     -20.480   3.148   1.703  1.00  0.00     0.205 HD
+ATOM     18  CG2 VAL D   2     -22.556  -4.698   1.206  1.00  0.00     0.000 C
+HETATM   19  H   FL6 D   4     -22.616   0.431   2.322  1.00  0.00     0.127 HD
+HETATM   20  N   FL6 D   4     -22.049   1.235   2.589  1.00  0.00    -0.290 NA
+ATOM     21  N   ALA D   3     -21.318  -0.174   0.265  1.00  0.00     0.000 ?
+ATOM     22  CA  ALA D   3     -20.893   1.207   0.478  1.00  0.00     0.000 C
+ENDROOT
+BRANCH   1  23
+HETATM   23  O2  PHQ D   1     -20.056  -2.117  -1.759  1.00  0.00    -0.298 OA
+BRANCH  23  24
+HETATM   24  C2  PHQ D   1     -19.447  -1.947  -3.030  1.00  0.00     0.207 C
+BRANCH  24  25
+HETATM   25  C3  PHQ D   1     -19.180  -0.493  -3.272  1.00  0.00    -0.021 A
+HETATM   26  C7  PHQ D   1     -19.476   1.459  -4.614  1.00  0.00     0.000 A
+HETATM   27  C6  PHQ D   1     -18.688   2.186  -3.725  1.00  0.00     0.000 A
+HETATM   28  C8  PHQ D   1     -19.727   0.117  -4.388  1.00  0.00     0.006 A
+HETATM   29  C5  PHQ D   1     -18.138   1.570  -2.605  1.00  0.00     0.000 A
+HETATM   30  C4  PHQ D   1     -18.388   0.223  -2.380  1.00  0.00     0.006 A
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH  20  31
+HETATM   31  CA  FL6 D   4     -21.880   1.477   4.015  1.00  0.00     0.133 C
+BRANCH  31  32
+HETATM   32  CB  FL6 D   4     -20.729   0.491   4.275  1.00  0.00     0.133 C
+BRANCH  32  33
+HETATM   33  CG  FL6 D   4     -20.899  -0.291   5.538  1.00  0.00     0.264 C
+HETATM   34  OD1 FL6 D   4     -22.007  -0.681   5.886  1.00  0.00    -0.265 OA
+BRANCH  33  35
+HETATM   35  OD2 FL6 D   4     -19.697  -0.574   6.317  1.00  0.00    -0.318 OA
+HETATM   36  CM1 FL6 D   4     -19.797  -1.384   7.468  1.00  0.00     0.205 C
+ENDBRANCH  33  35
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+BRANCH  31  37
+HETATM   37  C   FL6 D   4     -21.447   2.765   4.699  1.00  0.00     0.148 C
+HETATM   38  C1  CF0 D   5     -20.772   3.931   4.052  1.00  0.00     0.087 C
+HETATM   39  O   FL6 D   4     -21.625   2.843   5.901  1.00  0.00    -0.296 OA
+ENDBRANCH  31  37
+ENDBRANCH  20  31
+TORSDOF 8

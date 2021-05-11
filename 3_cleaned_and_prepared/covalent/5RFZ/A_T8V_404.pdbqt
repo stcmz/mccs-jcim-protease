@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_4  and  N_8
+ROOT
+HETATM    1  N1  T8V A 404       4.936  -4.636  23.570  1.00  0.00    -0.242 NA
+HETATM    2  C6  T8V A 404       5.861  -4.455  22.652  1.00  0.00     0.147 A
+HETATM    3 CL1  T8V A 404       6.370  -5.863  21.785  1.00  0.00    -0.060 Cl
+HETATM    4  C2  T8V A 404       6.417  -3.214  22.374  1.00  0.00     0.059 A
+HETATM    5  C5  T8V A 404       4.525  -3.572  24.266  1.00  0.00     0.112 A
+HETATM    6  C3  T8V A 404       5.984  -2.112  23.108  1.00  0.00     0.024 A
+HETATM    7  C4  T8V A 404       5.016  -2.300  24.071  1.00  0.00     0.021 A
+ENDROOT
+BRANCH   4   8
+HETATM    8  N   T8V A 404       7.412  -3.109  21.380  1.00  0.00    -0.226 N
+HETATM    9  H   T8V A 404       8.369  -3.005  21.716  1.00  0.00     0.136 HD
+HETATM   10  C1  T8V A 404       7.257  -3.129  20.046  1.00  0.00     0.202 C
+HETATM   11  C   T8V A 404       8.455  -2.555  19.338  1.00  0.00     0.105 C
+HETATM   12  O   T8V A 404       6.272  -3.538  19.454  1.00  0.00    -0.280 OA
+ENDBRANCH   4   8
+TORSDOF 1

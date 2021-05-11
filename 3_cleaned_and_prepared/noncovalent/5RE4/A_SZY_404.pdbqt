@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C05_2  and  N04_8
+ROOT
+HETATM    1  C10 SZY A 404       5.728   0.516  20.398  1.00  0.00    -0.029 A
+HETATM    2  C05 SZY A 404       6.924  -0.116  20.067  1.00  0.00     0.043 A
+HETATM    3  C11 SZY A 404       5.281   0.622  21.854  1.00  0.00     0.045 C
+HETATM    4  C06 SZY A 404       7.301  -0.183  18.732  1.00  0.00     0.131 A
+HETATM    5  C09 SZY A 404       4.960   1.058  19.367  1.00  0.00     0.024 A
+HETATM    6  C08 SZY A 404       5.418   0.935  18.062  1.00  0.00     0.111 A
+HETATM    7  N07 SZY A 404       6.551   0.333  17.777  1.00  0.00    -0.262 NA
+ENDROOT
+BRANCH   2   8
+HETATM    8  N04 SZY A 404       7.775  -0.699  21.092  1.00  0.00    -0.227 N
+HETATM    9  C02 SZY A 404       9.020  -0.053  21.471  1.00  0.00     0.202 C
+HETATM   10  C01 SZY A 404       9.914  -0.671  22.544  1.00  0.00     0.105 C
+HETATM   11  O03 SZY A 404       9.346   0.960  20.955  1.00  0.00    -0.280 OA
+HETATM   12  H04 SZY A 404       7.496  -1.568  21.548  1.00  0.00     0.136 HD
+ENDBRANCH   2   8
+TORSDOF 1

@@ -1,0 +1,33 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C5_5
+REMARK    2  A    between atoms: C6_3  and  C7_12
+REMARK    3  A    between atoms: C7_12  and  C8_13
+ROOT
+HETATM    1  N1  UH7 A1001       7.934  -0.610  20.709  1.00  0.00    -0.227 N
+HETATM    2  O   UH7 A1001       9.738   0.762  20.761  1.00  0.00    -0.279 OA
+HETATM    3  C6  UH7 A1001       9.116  -0.198  21.206  1.00  0.00     0.209 C
+HETATM    4  H1  UH7 A1001       7.512  -1.441  21.123  1.00  0.00     0.136 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  C5  UH7 A1001       7.237   0.022  19.660  1.00  0.00     0.043 A
+HETATM    6  C4  UH7 A1001       7.705  -0.050  18.349  1.00  0.00     0.131 A
+HETATM    7  C2  UH7 A1001       5.541   1.510  18.876  1.00  0.00     0.024 A
+HETATM    8  C   UH7 A1001       5.529   0.926  21.325  1.00  0.00     0.045 C
+HETATM    9  N   UH7 A1001       7.149   0.623  17.336  1.00  0.00    -0.262 NA
+HETATM   10  C3  UH7 A1001       6.083   1.384  17.613  1.00  0.00     0.111 A
+HETATM   11  C1  UH7 A1001       6.111   0.818  19.940  1.00  0.00    -0.029 A
+ENDBRANCH   1   5
+BRANCH   3  12
+HETATM   12  C7  UH7 A1001       9.612  -0.997  22.396  1.00  0.00     0.127 C
+BRANCH  12  13
+HETATM   13  C8  UH7 A1001      11.094  -0.798  22.599  1.00  0.00    -0.038 A
+HETATM   14  C13 UH7 A1001      12.002  -1.377  21.714  1.00  0.00     0.024 A
+HETATM   15 CL   UH7 A1001      14.477  -1.866  20.755  1.00  0.00    -0.084 Cl
+HETATM   16  C11 UH7 A1001      13.818  -0.188  22.771  1.00  0.00     0.020 A
+HETATM   17  C10 UH7 A1001      12.916   0.363  23.672  1.00  0.00     0.002 A
+HETATM   18  C12 UH7 A1001      13.348  -1.074  21.821  1.00  0.00     0.041 A
+HETATM   19  C9  UH7 A1001      11.569   0.049  23.592  1.00  0.00     0.004 A
+ENDBRANCH  12  13
+ENDBRANCH   3  12
+TORSDOF 3
